@@ -8,13 +8,21 @@ body {
     color: #b7b7b7;
     display: flex;
     flex-direction: column;
-    background: #1F2937;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
     display: flex;
-    width: 86em;
-    margin-top: 20px;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    background: #1F2937;
+}
+
+.title {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .links {
@@ -33,23 +41,22 @@ body {
     padding: 0;
     gap: 50px;
     height: 505px;
-    width: 60em;
+    margin: 0;
+    padding: 0;
+    padding: 0 50px;
+    background: #1F2937;
 }
 
-.title {
-    font-size: 24px;
-    color: #F9FAF8;
-}
 
-.intro {
-    margin-bottom: 10px;
-}
-
-.welcome-message {
+.welcome-header {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
     margin-bottom: 5px;
+}
+
+.welcome-message {
+    margin-bottom: 10px;
 }
 
 .more-info {
@@ -64,7 +71,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 505px;
-    width: 106em;
 }
 
 .images-text {
@@ -97,7 +103,8 @@ body {
     background: #E5E7EB;
     color: #1F2937;
     height: 505px;
-    width: 106em;
+    margin: 0;
+    padding: 0;
 }
 
 .quote {
@@ -123,8 +130,9 @@ body {
 .message {
     display: flex;
     height: 505px;
-    width: 106em;
     background: #F9FAF8;
+    margin: 0;
+    padding: 0;
 }
 
 .box-container {
@@ -158,6 +166,9 @@ footer {
     background: #1F2937;
     color: #b7b7b7;
     height: 4em;
+    margin: 0;
+    padding: 0;
     margin-top: 40px;
+    display: flex;
 }
 
